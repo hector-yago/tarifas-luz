@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tarifas de luz</title>
+  <meta name="description" content="Compara tu factura de la luz con las ofertas de las comercializadoras, con tus propios datos y sin salir del dispositivo.">
+  <meta name="theme-color" content="#1f3a5f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Tarifas luz">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>⚡ Tarifas de luz</h1>
+    <button id="btn-update" class="btn primary" type="button">Actualizar ofertas</button>
+  </header>
+  <p id="offers-status" class="status" role="status"></p>
+
+  <nav class="tabs" role="tablist" aria-label="Secciones">
+    <button role="tab" data-tab="facturas" aria-selected="true">Mis facturas</button>
+    <button role="tab" data-tab="condiciones" aria-selected="false">Condiciones</button>
+    <button role="tab" data-tab="resultados" aria-selected="false">Resultados</button>
+    <button role="tab" data-tab="ofertas" aria-selected="false">Ofertas</button>
+    <button role="tab" data-tab="ajustes" aria-selected="false">Ajustes</button>
+  </nav>
+
+  <main>
+    <section id="tab-facturas" class="panel" role="tabpanel"></section>
+    <section id="tab-condiciones" class="panel" role="tabpanel" hidden></section>
+    <section id="tab-resultados" class="panel" role="tabpanel" hidden></section>
+    <section id="tab-ofertas" class="panel" role="tabpanel" hidden></section>
+    <section id="tab-ajustes" class="panel" role="tabpanel" hidden></section>
+  </main>
+
+  <dialog id="dlg-update">
+    <form method="dialog" class="dlg">
+      <h2>Actualizar ofertas</h2>
+      <p class="muted">Los navegadores no pueden leer directamente las webs de las comercializadoras. Las ofertas se cargan desde un fichero <code>offers.json</code> (el que acompaña a la app o uno nuevo que te generen).</p>
+      <label>Dirección del fichero (opcional)
+        <input id="upd-url" type="url" placeholder="https://… /offers.json  (vacío = el incluido en la app)" inputmode="url">
+      </label>
+      <div class="row">
+        <button id="upd-fetch" class="btn primary" type="button">Descargar de Internet</button>
+        <label class="btn" for="upd-file">Importar archivo…</label>
+        <input id="upd-file" type="file" accept="application/json,.json" hidden>
+      </div>
+      <p id="upd-msg" class="status" role="status"></p>
+      <div class="row end">
+        <button id="upd-reset" class="btn" type="button">Volver a las incluidas</button>
+        <button class="btn" value="close">Cerrar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <noscript><p class="status">Esta aplicación necesita JavaScript.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

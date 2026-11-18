@@ -1,0 +1,13 @@
+{
+  "name": "tarifas-luz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PWA para comparar tu factura de la luz con las ofertas de las comercializadoras (datos solo en tu dispositivo).",
+  "scripts": {
+    "start": "node serve.mjs",
+    "start:lan": "node serve.mjs 8080 --lan",
+    "test": "node --test tests/engine.test.mjs tests/offers.test.mjs tests/store.test.mjs",
+    "icons": "node tools/make-icons.mjs"
+  }
+}

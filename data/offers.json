@@ -1,0 +1,944 @@
+{
+  "version": "2026-11-18b",
+  "description": "Ofertas de luz 2.0TD con precio único las 24 h (península). Precios SIN impuestos. Fuente principal: tabla «Tarifas de luz verificadas» de tarifaoptima.com (precios tomados de la web oficial de cada comercializadora, fechas de consulta 20-oct a 15-nov-2026), contrastada con la web oficial cuando fue accesible. Los precios cambian a diario: confirmar siempre en la web oficial antes de contratar.",
+  "params": {
+    "bonoSocialDia": 0.024688,
+    "alquilerEquipoDia": 0.0267,
+    "impuestoElectrico": 0.0511269632,
+    "iva": 0.21
+  },
+  "offers": [
+    {
+      "id": "octopus-actual",
+      "company": "Octopus Energy",
+      "tariff": "Octopus Relax (tu tarifa ACTUAL, hasta 13-12-2026)",
+      "kind": "referencia",
+      "energyPrice": 0.12246,
+      "powerP1": 0.097,
+      "powerP2": 0.027,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "Sí (100 %)",
+      "url": "https://octopusenergy.es/tarifas",
+      "urlVerified": true,
+      "consultedOn": "2026-11-18",
+      "verification": "Facturas del usuario",
+      "notes": "Precio medido en tus 12 documentos (0,122 €/kWh facturado, 0,1225 implícito). Referencia, no contratable."
+    },
+    {
+      "id": "octopus-renovacion",
+      "company": "Octopus Energy",
+      "tariff": "Octopus Relax (RENOVACIÓN desde 13-12-2026)",
+      "kind": "referencia",
+      "energyPrice": 0.159,
+      "powerP1": 0.12,
+      "powerP2": 0.12,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "Sí (100 %)",
+      "url": "https://octopusenergy.es/tarifas",
+      "urlVerified": true,
+      "consultedOn": "2026-11-18",
+      "verification": "Carta de Octopus del usuario",
+      "notes": "Precios que Octopus te aplicará durante 12 meses si no haces nada. Es la opción de comparación («no hacer nada»)."
+    },
+    {
+      "id": "energya-vm-formula-fija-24h",
+      "company": "Enérgya VM",
+      "tariff": "Fórmula Fija 24 horas (online)",
+      "kind": "oferta",
+      "energyPrice": 0.117,
+      "powerP1": 0.093,
+      "powerP2": 0.093,
+      "monthlyFee": 0,
+      "lockInMonths": 12,
+      "lockInUncertain": true,
+      "renewable": "No indicado",
+      "restrictions": "Precio online para clientes nuevos hasta 5.000 kWh/año. La fuente cita «dto. 15 % el primer año»: no está claro si 0,117 ya lo incluye.",
+      "url": "https://www.energyavm.es",
+      "urlVerified": true,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com). Datos contradictorios entre fuentes: CONFIRMAR",
+      "rating": "Papernest 2,8/5 (solo 4 opiniones, 2026).",
+      "pros": [
+        "Precio de energía y potencia entre los más bajos de la tabla."
+      ],
+      "cons": [
+        "Fuentes (Roams, Papernest) indican permanencia de 12 meses; no confirmado en contrato.",
+        "Muy pocas opiniones; reputación baja con muestra pequeña.",
+        "Hay versión con «asistencia» y versión sin ella con precios distintos: pedir el resumen de condiciones concreto."
+      ],
+      "clauses": [
+        "Posible permanencia con penalización (a confirmar en el resumen de condiciones).",
+        "Servicios de mantenimiento (SVA) opcionales que pueden contratarse por defecto: comprobar que no se activan."
+      ]
+    },
+    {
+      "id": "lucera-precio-fijo",
+      "company": "Lucera",
+      "tariff": "Tarifa a precio fijo",
+      "kind": "oferta",
+      "energyPrice": 0.125,
+      "powerP1": 0.088,
+      "powerP2": 0.088,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "Sí (100 %)",
+      "restrictions": "Precio válido 12 meses; después Lucera puede actualizarlo con 30 días de aviso con un tope en la primera revisión de 0,160 €/kWh sin impuestos.",
+      "url": "https://lucera.es/tarifas-luz/precio-fijo",
+      "urlVerified": true,
+      "consultedOn": "2026-11-18",
+      "verification": "Web oficial (coincide con tarifaoptima.com 11-nov-2026)",
+      "rating": "Trustpilot ≈4,5/5 (888 opiniones) y 4,6–4,7 en comparadores; en OCU solo 2 reclamaciones públicas listadas (2021 y feb-2026, consumos). Queja recurrente: «se ha ido encareciendo».",
+      "pros": [
+        "Sin permanencia ni cuota fija; precio muy competitivo para consumo bajo.",
+        "100 % renovable; buena atención y facturas claras según opiniones.",
+        "Dispone del tope de revisión publicado (0,160 €/kWh)."
+      ],
+      "cons": [
+        "Tras 12 meses puede subir hasta el tope (con 30 días de aviso).",
+        "Solo dos tarifas; poca presencia física."
+      ],
+      "clauses": [
+        "Revisión de precio a los 12 meses por fórmula con tope: aceptable por estar acotada, pero vigila el aviso y cambia de compañía si sube."
+      ]
+    },
+    {
+      "id": "totalenergies-a-tu-aire-siempre",
+      "company": "TotalEnergies",
+      "tariff": "A Tu Aire Siempre Luz (<4.000 kWh/año)",
+      "kind": "oferta",
+      "energyPrice": 0.1199,
+      "powerP1": 0.094493,
+      "powerP2": 0.094493,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Precio distinto si el consumo supera 4.000 kWh/año (0,189 €/kWh). Contrato 12 meses con renovación automática anual.",
+      "url": "https://www.totalenergies.es/es/hogares/luz/a-tu-aire-siempre",
+      "urlVerified": true,
+      "consultedOn": "2026-11-18",
+      "verification": "Web oficial (coincide con tarifaoptima.com 20-oct-2026)",
+      "promotion": "Tarjeta regalo 30 € solo en Black Friday (no incluida en el coste).",
+      "rating": "Valoración muy baja: Trustpilot 2,7/5 (699) y Selectra 2,6/5 (1.016); Roams 1,2/5 (jul-2026). Quejas: subidas sin aviso tras los primeros meses, facturas erróneas, reclamaciones lentas.",
+      "pros": [
+        "Precio fijo anual sin permanencia, de los más bajos verificados en web oficial."
+      ],
+      "cons": [
+        "Reputación entre las peores de la lista.",
+        "Renovación automática anual."
+      ],
+      "clauses": [
+        "Renovación automática por otro año.",
+        "Umbral de 4.000 kWh/año que cambia el precio (a ti no te afecta con ~2.000 kWh)."
+      ]
+    },
+    {
+      "id": "visalia-luz-fijo-24h",
+      "company": "Visalia (antes Watium)",
+      "tariff": "Luz Fijo 24h",
+      "kind": "oferta",
+      "energyPrice": 0.144757,
+      "powerP1": 0.077,
+      "powerP2": 0.077,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "Sí (100 %)",
+      "restrictions": "Contratable hasta 26-06-2027. Otras fuentes antiguas dan 0,098 €/kWh y 0,071 €/kW/día: los precios han cambiado.",
+      "url": "https://www.visalia.es/",
+      "urlVerified": true,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); web oficial confirma «sin permanencia» y 100 % renovable",
+      "rating": "Trustpilot 4,2/5 (1.985 reseñas, dato de su web) y 4,55/5 (239) en otra fuente; Watium tenía reputación baja por facturación y atención.",
+      "pros": [
+        "Potencia baja (0,077) favorece consumos bajos.",
+        "Sin permanencia y 100 % renovable según su web."
+      ],
+      "cons": [
+        "Una fuente describe el término de energía como indexado: verificar que es realmente fijo 12 meses.",
+        "Empresa con servicios cruzados (fibra, gasóleo) y marca heredada con quejas."
+      ],
+      "clauses": [
+        "Verificar en condiciones particulares si el precio es fijo o indexado."
+      ]
+    },
+    {
+      "id": "chc-estrella-duo",
+      "company": "CHC Energía",
+      "tariff": "Plan Estrella Dúo",
+      "kind": "oferta",
+      "energyPrice": 0.139,
+      "powerP1": 0.109,
+      "powerP2": 0.083,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "lockInUncertain": true,
+      "renewable": "No indicado",
+      "restrictions": "0–15 kW. Otra fuente (Xataka, 2-nov-2026) da 0,139 €/kWh con potencia 0,0781/0,0599; Comparadorluz da 0,1199: discrepancia.",
+      "url": "https://www.chcenergia.es",
+      "urlVerified": true,
+      "consultedOn": "2026-11-05",
+      "verification": "Secundaria con fecha (tarifaoptima.com). Discrepancia: CONFIRMAR",
+      "promotion": "Descuento 9,99 €/mes durante 5 meses citado por Xataka (no incluido).",
+      "rating": "Roams 2,5/5 (102 opiniones). OCU: reclamaciones públicas de 2026 por cambio unilateral de plan sin consentimiento y por una cláusula de excedentes.",
+      "pros": [
+        "Precio intermedio sin cuota fija."
+      ],
+      "cons": [
+        "Quejas de cambios de condiciones a los pocos meses.",
+        "Precio publicado distinto según fuente."
+      ],
+      "clauses": [
+        "Cambio unilateral de plan (reclamación en OCU feb-2026): exigir confirmación escrita de precio y duración."
+      ]
+    },
+    {
+      "id": "pepeenergy-tarifa-estable",
+      "company": "Pepeenergy",
+      "tariff": "Tarifa Estable",
+      "kind": "oferta",
+      "energyPrice": 0.1199,
+      "powerP1": 0.133,
+      "powerP2": 0.059,
+      "monthlyFee": 3.14,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Cuota mensual ≈3,14 €/mes sin impuestos (4 € con impuestos). Papernest describe el precio estable solo por periodos de 6 meses.",
+      "url": "https://www.pepeenergy.com",
+      "urlVerified": true,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com). Rastreator solo lista una tarifa (ECO): CONFIRMAR existencia y condiciones",
+      "rating": "Opiniones 2026 en Roams: gestión lenta y poco transparente. Rastreator y otras fuentes mencionan quejas por la falta de tarifa estable.",
+      "pros": [
+        "Precio de energía bajo."
+      ],
+      "cons": [
+        "Cuota fija mensual que penaliza consumos bajos.",
+        "Revisión de precio cada 6 meses según una fuente."
+      ],
+      "clauses": [
+        "Cuota mensual adicional; posible revisión semestral del precio."
+      ],
+      "reviewMonths": 6,
+      "reviewUncertain": true
+    },
+    {
+      "id": "naturgy-por-uso-luz",
+      "company": "Naturgy",
+      "tariff": "Tarifa Por Uso Luz",
+      "kind": "oferta",
+      "energyPrice": 0.148,
+      "powerP1": 0.12303,
+      "powerP2": 0.061562,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Precio estable 12 meses, sin penalización por permanencia. Hasta 15 kW.",
+      "url": "https://www.naturgy.es/hogar/luz",
+      "urlVerified": true,
+      "consultedOn": "2026-11-18",
+      "verification": "Web oficial (coincide con tarifaoptima.com 5-nov-2026). Otra fuente lista 0,123 €/kWh: precio anterior",
+      "rating": "Roams 2,5/5 (jun-2026). Quejas: atención y facturación, reclamaciones con mucho papeleo; un cliente (may-2026) dice que cambiaron condiciones a los pocos meses.",
+      "pros": [
+        "Compañía grande; web oficial publica precios y condiciones.",
+        "Sin permanencia."
+      ],
+      "cons": [
+        "Potencia P1 alta (0,123).",
+        "Reputación de atención al cliente regular/baja."
+      ],
+      "clauses": [
+        "Condiciones generales extensas: revisar renovación y modificación de precios tras 12 meses."
+      ]
+    },
+    {
+      "id": "eci-despreocupate",
+      "company": "Energía El Corte Inglés",
+      "tariff": "Tarifa Despreocúpate",
+      "kind": "oferta",
+      "energyPrice": 0.124572,
+      "powerP1": 0.113,
+      "powerP2": 0.113,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "Sí (según fuentes)",
+      "restrictions": "Solo península. Otras fuentes (jun-2026) daban 0,118 €/kWh y 0,0997 €/kW/día.",
+      "url": "https://www.elcorteingles.es/energia/",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial a confirmar",
+      "rating": "Selectra 2,14/5 (7 reseñas) y Papernest 3,2/5 (6): muestras pequeñas. Atención y transparencia bien valoradas; precios poco competitivos.",
+      "pros": [
+        "Sin permanencia según fuentes; marca conocida."
+      ],
+      "cons": [
+        "Potencia alta (0,113)."
+      ],
+      "clauses": [
+        "Comprobar condiciones de revisión de precio tras 12 meses."
+      ]
+    },
+    {
+      "id": "yoigo-tarifa-estable",
+      "company": "Yoigo (EnergyGO)",
+      "tariff": "Tarifa Estable de Luz",
+      "kind": "oferta",
+      "energyPrice": 0.149,
+      "powerP1": 0.133,
+      "powerP2": 0.059,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "La fuente indica que el precio se revisa cada 6 meses (no es fijo 12 meses).",
+      "url": "https://www.yoigo.com",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial a confirmar",
+      "rating": "Sin datos específicos recopilados de EnergyGO; Papernest indica potencia por encima de mercado.",
+      "pros": [
+        "Sin permanencia (según fuentes)."
+      ],
+      "cons": [
+        "Revisión de precio cada 6 meses: no garantiza precio fijo 12 meses."
+      ],
+      "clauses": [
+        "Revisión semestral del precio: riesgo de subida durante el año."
+      ],
+      "reviewMonths": 6
+    },
+    {
+      "id": "contigo-facil",
+      "company": "Contigo Energía (antes Gesternova)",
+      "tariff": "Fácil",
+      "kind": "oferta",
+      "energyPrice": 0.1675,
+      "powerP1": 0.083,
+      "powerP2": 0.083,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "lockInUncertain": true,
+      "renewable": "Sí (100 %, EKOenergía)",
+      "restrictions": "Fija 24 h, 12 meses. Una ficha (Roams) indica permanencia de 12 meses mientras el texto dice sin permanencia: CONFIRMAR.",
+      "url": "https://contigoenergia.com",
+      "urlVerified": false,
+      "consultedOn": "2026-11-15",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial a confirmar",
+      "rating": "Trustpilot 4,1/5 (>100 reseñas) y OCU 89/100 según Roams (sin fecha).",
+      "pros": [
+        "100 % renovable y buena valoración."
+      ],
+      "cons": [
+        "Precio de energía alto; contradicción sobre permanencia."
+      ],
+      "clauses": [
+        "Verificar la permanencia de 12 meses en las condiciones particulares."
+      ]
+    },
+    {
+      "id": "niba-zen",
+      "company": "niba",
+      "tariff": "niba Zen",
+      "kind": "oferta",
+      "energyPrice": 0.147,
+      "powerP1": 0.099,
+      "powerP2": 0.099,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "Sí (100 %)",
+      "restrictions": "Sin cuota fija en Zen (solo en niba Flex). Peajes y cargos regulados pueden variar durante el contrato. Otras fuentes citan 0,115–0,123 €/kWh (promos/antiguos).",
+      "url": "https://niba.es/",
+      "urlVerified": true,
+      "consultedOn": "2026-11-18",
+      "verification": "Web oficial (coincide con tarifaoptima.com 11-nov-2026)",
+      "rating": "Trustpilot ≈4,4/5 (398 reseñas, Rankia); 4,6/5 en Papernest (afiliado). Sin datos de OCU.",
+      "pros": [
+        "Sin permanencia, 100 % renovable, contratación 100 % digital.",
+        "Sin cuota fija."
+      ],
+      "cons": [
+        "Atención solo digital.",
+        "Precio de energía medio."
+      ],
+      "clauses": [
+        "Peajes y cargos «pueden variar durante el contrato»: habitual, pero confirma que solo repercuten los regulados y no el margen."
+      ]
+    },
+    {
+      "id": "gana-24h",
+      "company": "Gana Energía",
+      "tariff": "Tarifa Fija 24 Horas",
+      "kind": "oferta",
+      "energyPrice": 0.149,
+      "powerP1": 0.099,
+      "powerP2": 0.099,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Precio fijo 12 meses, hasta 15 kW.",
+      "url": "https://www.ganaenergia.com",
+      "urlVerified": false,
+      "consultedOn": "2026-11-06",
+      "verification": "Secundaria con fecha (2 fuentes coinciden: tarifaoptima.com y Rankia); URL oficial a confirmar",
+      "rating": "Tarifasgasluz 4,5/5 (9.213) vs Roams 3,5/5 (106). OCU: valoración «bastante negativa»; 24 reclamaciones en 12 meses (83 % cerradas) según Comparadorluz. Queja de contratación sin consentimiento.",
+      "pros": [
+        "Sin permanencia y precio fijo 12 meses."
+      ],
+      "cons": [
+        "Reclamaciones y atención al cliente con mala reputación."
+      ],
+      "clauses": [
+        "Verificar en el contrato qué ocurre al finalizar los 12 meses."
+      ]
+    },
+    {
+      "id": "podo-24h",
+      "company": "Podo",
+      "tariff": "Luz Precio Único 24h",
+      "kind": "oferta",
+      "energyPrice": 0.149,
+      "powerP1": 0.098,
+      "powerP2": 0.098,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "lockInUncertain": true,
+      "renewable": "No indicado",
+      "restrictions": "Papernest daba 0,108 €/kWh en otra fecha: precio cambiado. Podo anuncia «sin permanencia».",
+      "url": "https://www.podo.es",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial a confirmar (podo.com devuelve «coming soon»)",
+      "rating": "Comparadorluz 1,8/5 (803 opiniones); Papernest 1,9/5. Quejas 2026 de clientes a los que reclaman penalización pese a la publicidad «sin permanencia»; reclamación pública en OCU.",
+      "pros": [
+        "Sin permanencia declarada; contratación online."
+      ],
+      "cons": [
+        "Reputación baja; quejas por penalización por cambio de compañía."
+      ],
+      "clauses": [
+        "Posible penalización contractual a pesar de «sin permanencia»: leer las condiciones particulares y conservar copia."
+      ]
+    },
+    {
+      "id": "plenitude-facil-plus",
+      "company": "Plenitude (antes Aldro)",
+      "tariff": "Fácil Plus Luz (12 meses)",
+      "kind": "oferta",
+      "energyPrice": 0.146559,
+      "powerP1": 0.112498,
+      "powerP2": 0.112498,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "Sí (Garantías de Origen)",
+      "restrictions": "Hasta 5 kW, sin Bono Social, solo nuevas altas/cambios. Existe «Fácil Plus 36 meses» a 0,089 €/kWh (campaña Black Days hasta 30-11-2026) pero vincula 36 meses.",
+      "url": "https://eniplenitude.es",
+      "urlVerified": true,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com y Rankia 04-nov-2026)",
+      "promotion": "Cashback de 40 € en noviembre (no incluido en el coste).",
+      "rating": "Opiniones mixtas: Roams muy positivas (114, sin verificar); Papernest mixtas (incidencias de contratación/facturación).",
+      "pros": [
+        "Sin permanencia declarada; 100 % renovable (GdO).",
+        "Promoción puntual de cashback."
+      ],
+      "cons": [
+        "Precio tras los 12 meses no publicado.",
+        "Límite de potencia 5 kW."
+      ],
+      "clauses": [
+        "Precio tras 12 meses sin tope publicado."
+      ],
+      "maxKw": 5
+    },
+    {
+      "id": "plenitude-facil-plus-36",
+      "company": "Plenitude (antes Aldro)",
+      "tariff": "Fácil Plus 36 meses (campaña Black Days hasta 30-11)",
+      "kind": "oferta",
+      "energyPrice": 0.089,
+      "powerP1": 0.112498,
+      "powerP2": 0.112498,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "priceFixedMonths": 36,
+      "renewable": "Sí (Garantías de Origen)",
+      "restrictions": "Precio fijo 36 meses (campaña hasta 30-11-2026). Hasta 5 kW. Se dice «sin permanencia», pero compromete a 36 meses de precio: confirmar penalización en el contrato.",
+      "url": "https://eniplenitude.es",
+      "urlVerified": true,
+      "consultedOn": "2026-11-04",
+      "verification": "Secundaria (Rankia 04-nov-2026): CONFIRMAR condiciones y penalización",
+      "rating": "Ver Fácil Plus Luz.",
+      "pros": [
+        "Energía a 0,089 fija 3 años: la más baja de la lista."
+      ],
+      "cons": [
+        "Campaña limitada en el tiempo.",
+        "Duración 36 meses: posible penalización si te vas."
+      ],
+      "clauses": [
+        "Duración de 36 meses del precio: comprobar si hay penalización por baja anticipada."
+      ],
+      "maxKw": 5
+    },
+    {
+      "id": "imagina-sin-horas",
+      "company": "Imagina Energía",
+      "tariff": "Sin Horas",
+      "kind": "oferta",
+      "energyPrice": 0.149,
+      "energyPriceYear1": 0.119,
+      "powerP1": 0.136,
+      "powerP2": 0.086,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Descuento 20 % el primer año en energía (0,119); desde el 2.º año 0,149.",
+      "url": "https://imaginaenergia.com",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial a confirmar",
+      "rating": "Papernest 3,4/5 (5 opiniones). OCU 2026: reclamaciones de facturación; comunicó una nueva tarifa sin precio aplicable desde 1-mar-2026.",
+      "pros": [
+        "Primer año barato en energía."
+      ],
+      "cons": [
+        "El precio sube un 25 % al segundo año.",
+        "Reclamaciones lentas según reseñas."
+      ],
+      "clauses": [
+        "Descuento temporal: el coste real a partir del año 2 es mayor."
+      ]
+    },
+    {
+      "id": "fenie-1p",
+      "company": "Feníe Energía",
+      "tariff": "Fijo Energético 1P",
+      "kind": "oferta",
+      "energyPrice": 0.144926,
+      "powerP1": 0.114,
+      "powerP2": 0.114,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Hasta 15 kW.",
+      "url": "https://www.fenieenergia.es",
+      "urlVerified": true,
+      "consultedOn": "2026-11-13",
+      "verification": "Secundaria con fecha (tarifaoptima.com)",
+      "rating": "Comparadorluz 2,33/5 (208), Google 2,4/5 (164), Selectra 2,0/5 (41). OCU 2026: reclamaciones por factura desproporcionada y corte de suministro tras cobro rechazado.",
+      "pros": [
+        "—"
+      ],
+      "cons": [
+        "Reputación baja; quejas de facturación y cortes."
+      ],
+      "clauses": [
+        "Revisar cláusulas de impago y corte de suministro."
+      ]
+    },
+    {
+      "id": "nexus-luz-estable",
+      "company": "Nexus Energía",
+      "tariff": "Luz Estable",
+      "kind": "oferta",
+      "energyPrice": 0.149,
+      "powerP1": 0.113,
+      "powerP2": 0.113,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Sin cuota de gestión.",
+      "url": "https://www.nexusenergia.com",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial a confirmar",
+      "rating": "Comparadorluz ≈2,2–2,75/5. OCU no da nota (pocas reclamaciones; respuesta ≈2 semanas). Atención calificada de ineficaz por muchos usuarios.",
+      "pros": [
+        "Sin cuota de gestión."
+      ],
+      "cons": [
+        "Atención al cliente mal valorada."
+      ],
+      "clauses": [
+        "—"
+      ]
+    },
+    {
+      "id": "holaluz-clasica",
+      "company": "Holaluz",
+      "tariff": "Tarifa Clásica",
+      "kind": "oferta",
+      "energyPrice": 0.159,
+      "powerP1": 0.12,
+      "powerP2": 0.12,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "Sí (renovable)",
+      "restrictions": "0,149 €/kWh contratando online (según fuente). Precio fijo 12 meses.",
+      "url": "https://www.holaluz.com",
+      "urlVerified": true,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com)",
+      "rating": "Trustpilot 4,1/5 (>8.300) y 3,9/5 (8.833). OCU (ficha de Clindom Energy): 107 reclamaciones, 86 % cerradas, 11 días de respuesta. Punto débil: tiempos de reclamación.",
+      "pros": [
+        "Sin permanencia; buenas valoraciones; renovable."
+      ],
+      "cons": [
+        "Precio alto, igual que la renovación de Octopus (0,159/0,12)."
+      ],
+      "clauses": [
+        "—"
+      ]
+    },
+    {
+      "id": "repsol-sin-horarios",
+      "company": "Repsol",
+      "tariff": "Sin Horarios",
+      "kind": "oferta",
+      "energyPrice": 0.1649,
+      "powerP1": 0.099726,
+      "powerP2": 0.099726,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Fija 12 meses. 0,1499 €/kWh solo contratando Asistente 24h (4,99 €/mes): a tu consumo no compensa.",
+      "url": "https://www.repsol.es/particulares/hogar/luz-y-gas/tarifas/",
+      "urlVerified": true,
+      "consultedOn": "2026-11-05",
+      "verification": "Secundaria con fecha (tarifaoptima.com). Otras fuentes citan 0,129 y 0,1299: precio cambiado",
+      "rating": "Comparadorluz 4,7/5 (12.987); web propia 4,8/5 (14.703). Roams: críticas a la atención telefónica; un caso de cobro de 30 € al cambiar de compañía.",
+      "pros": [
+        "Compañía grande, app Waylet, buena valoración global."
+      ],
+      "cons": [
+        "Precio alto frente a las opciones más baratas."
+      ],
+      "clauses": [
+        "Servicios de mantenimiento/asistencia (desde 4,90 €/mes) que no debes aceptar por defecto.",
+        "Caso de cobro de 30 € al cambiar de compañía pese a no haber permanencia."
+      ]
+    },
+    {
+      "id": "endesa-24h-online",
+      "company": "Endesa",
+      "tariff": "Luz 24h Online",
+      "kind": "oferta",
+      "energyPrice": 0.16699,
+      "energyPriceYear1": 0.148435,
+      "powerP1": 0.0937,
+      "powerP2": 0.0937,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Descuento primer año (20 % según tarifaoptima; 25 % según blog de Endesa); solo nuevas contrataciones. Contrato de 1 año con renovación automática.",
+      "url": "https://www.endesa.com/es/luz-y-gas/luz/tarifa-fija-24h",
+      "urlVerified": true,
+      "consultedOn": "2026-11-04",
+      "verification": "Secundaria con fecha (tarifaoptima.com). Descuento: fuentes discrepan",
+      "promotion": "Bono de bienvenida de 50 € citado en un blog de Endesa (oct-2026), no incluido.",
+      "rating": "Selectra 3,7/5 (14.838 opiniones, global de Endesa). Quejas de facturación y área de clientes.",
+      "pros": [
+        "Compañía grande; potencia relativamente baja (0,0937)."
+      ],
+      "cons": [
+        "Precio sube desde el 2.º año; renovación automática."
+      ],
+      "clauses": [
+        "Descuento solo el primer año y solo nuevas contrataciones.",
+        "Renovación automática anual."
+      ]
+    },
+    {
+      "id": "estabanell-24h",
+      "company": "Estabanell Energia",
+      "tariff": "Tarifa de luz 24 horas",
+      "kind": "oferta",
+      "energyPrice": 0.182,
+      "powerP1": 0.088,
+      "powerP2": 0.029,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Sujeta al IPC.",
+      "url": "",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial no comprobada",
+      "rating": "Sin datos recopilados.",
+      "pros": [
+        "Potencia valle muy baja."
+      ],
+      "cons": [
+        "Precio de energía alto; precio sujeto al IPC."
+      ],
+      "clauses": [
+        "Cláusula de actualización por IPC: el precio puede subir durante el contrato."
+      ],
+      "ipcLinked": true
+    },
+    {
+      "id": "iberdrola-plan-estable",
+      "company": "Iberdrola",
+      "tariff": "Plan Estable (5 años)",
+      "kind": "oferta",
+      "energyPrice": 0.199882,
+      "energyPriceYear1": 0.1699,
+      "powerP1": 0.11,
+      "powerP2": 0.1,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "priceFixedMonths": 60,
+      "lockInUncertain": true,
+      "renewable": "No indicado",
+      "restrictions": "Dto. 15 % solo el primer año. Precio fijo 5 años según publicidad; las condiciones de otros planes citan actualización por IPC y permanencias/penalizaciones según potencia: CONFIRMAR.",
+      "url": "https://www.iberdrola.es",
+      "urlVerified": true,
+      "consultedOn": "2026-11-05",
+      "verification": "Secundaria con fecha (tarifaoptima.com). Condiciones: fuentes contradictorias",
+      "rating": "Selectra 4,2/5 (~20.000). La OCU denunció a Iberdrola ante la CNMC por falta de transparencia en la revisión de una tarifa de precio fijo de 3 años (otra tarifa) y hay reclamaciones por IPC en planes con «precio fijo».",
+      "pros": [
+        "Precio fijo largo plazo; compañía grande."
+      ],
+      "cons": [
+        "Precio de energía de los más altos; descuento solo el primer año."
+      ],
+      "clauses": [
+        "Actualización por IPC pese a «precio fijo»: comprobar si aplica a esta tarifa.",
+        "Posible penalización por desistimiento según potencia."
+      ],
+      "ipcLinked": true,
+      "ipcUncertain": true
+    },
+    {
+      "id": "factor-unica",
+      "company": "Factor Energía",
+      "tariff": "Tarifa Única",
+      "kind": "oferta",
+      "energyPrice": 0.2013,
+      "powerP1": 0.104,
+      "powerP2": 0.104,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Dto. 10 % solo el primer año (el precio mostrado es el sin descuento).",
+      "url": "https://www.factorenergia.com",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial a confirmar",
+      "rating": "Sin datos recopilados.",
+      "pros": [
+        "—"
+      ],
+      "cons": [
+        "Precio de energía el más alto de la lista."
+      ],
+      "clauses": [
+        "—"
+      ]
+    },
+    {
+      "id": "bassols-hogar-24h",
+      "company": "Bassols Energia",
+      "tariff": "Hogar 24 horas",
+      "kind": "oferta",
+      "energyPrice": 0.202,
+      "powerP1": 0.099,
+      "powerP2": 0.099,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Un precio a cualquier hora.",
+      "url": "",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial no comprobada",
+      "rating": "Sin datos recopilados.",
+      "pros": [
+        "—"
+      ],
+      "cons": [
+        "Energía cara."
+      ],
+      "clauses": [
+        "—"
+      ]
+    },
+    {
+      "id": "met-fijo-24h",
+      "company": "MET Energía",
+      "tariff": "Precio fijo 24 horas",
+      "kind": "oferta",
+      "energyPrice": 0.210513,
+      "powerP1": 0.11,
+      "powerP2": 0.11,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Solo península, 12 meses.",
+      "url": "",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial no comprobada",
+      "rating": "Sin datos recopilados.",
+      "pros": [
+        "—"
+      ],
+      "cons": [
+        "Energía cara."
+      ],
+      "clauses": [
+        "—"
+      ]
+    },
+    {
+      "id": "unielectrica-relax",
+      "company": "Unieléctrica",
+      "tariff": "Relax",
+      "kind": "oferta",
+      "energyPrice": 0.230154,
+      "powerP1": 0.103,
+      "powerP2": 0.029,
+      "monthlyFee": 0,
+      "lockInMonths": 12,
+      "renewable": "No indicado",
+      "restrictions": "Permanencia de 12 meses según la fuente.",
+      "url": "",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial no comprobada",
+      "rating": "Sin datos recopilados.",
+      "pros": [
+        "Potencia valle muy baja."
+      ],
+      "cons": [
+        "Energía muy cara y permanencia de 12 meses."
+      ],
+      "clauses": [
+        "Permanencia de 12 meses con penalización probable."
+      ]
+    },
+    {
+      "id": "bonarea-relax",
+      "company": "bonÀrea Energia",
+      "tariff": "Relax",
+      "kind": "oferta",
+      "energyPrice": 0.159,
+      "powerP1": 0.117,
+      "powerP2": 0.117,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "No indicado",
+      "restrictions": "Un precio a cualquier hora.",
+      "url": "",
+      "urlVerified": false,
+      "consultedOn": "2026-11-11",
+      "verification": "Secundaria con fecha (tarifaoptima.com); URL oficial no comprobada",
+      "rating": "Sin datos recopilados.",
+      "pros": [
+        "—"
+      ],
+      "cons": [
+        "Precio alto."
+      ],
+      "clauses": [
+        "—"
+      ]
+    },
+    {
+      "id": "octopus-relax-nuevo",
+      "company": "Octopus Energy",
+      "tariff": "Octopus Relax (precio para NUEVOS clientes)",
+      "kind": "oferta",
+      "energyPrice": 0.174,
+      "powerP1": 0.12,
+      "powerP2": 0.12,
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "renewable": "Sí (100 %)",
+      "restrictions": "Fija 24 h, 12 meses. Tu carta de renovación (0,159/0,12) es más barata que este precio de captación.",
+      "url": "https://octopusenergy.es/tarifas",
+      "urlVerified": true,
+      "consultedOn": "2026-11-05",
+      "verification": "Secundaria con fecha (tarifaoptima.com)",
+      "rating": "Trustpilot 4,8/5 (25.757, según Rankia); atención al cliente muy elogiada; quejas puntuales de subidas unilaterales.",
+      "pros": [
+        "Mejor atención y reputación de la lista."
+      ],
+      "cons": [
+        "Caro frente a las alternativas; la subida de renovación te perjudica."
+      ],
+      "clauses": [
+        "Renovación a nuevo precio decidido por la compañía cada 12 meses (te ha pasado a ti)."
+      ]
+    },
+    {
+      "company": "Repsol (Waylet Luz)",
+      "kind": "oferta",
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "priceFixedMonths": 36,
+      "renewable": "No indicado",
+      "maxKw": 15,
+      "url": "https://www.repsol.es/waylet/casa/waylet-luz/",
+      "urlVerified": true,
+      "consultedOn": "2026-11-18",
+      "promotion": "Saldo Waylet: 2 % del importe de la factura (solo si pagas con tarjeta vinculada; no es descuento en la factura). Descuento en carburante con Waylet (cts/l). Bono de bienvenida de 40 € citado en febrero-2026 (puede haber cambiado). Nada de esto está incluido en el coste.",
+      "rating": "Repsol global: Comparadorluz 4,7/5 (12.987) y web propia 4,8/5; Roams recoge críticas a la atención telefónica y un caso de cobro de 30 € al cambiar de compañía. Foro Banda Ancha (nov-2026): muchos usuarios contratan «Repsol Waylet Fijo» por los 3 años de precio garantizado.",
+      "clauses": [
+        "Solo contratable desde la app Waylet y, según la propia web/HelloWatt, para quien aún no tiene otros servicios de Repsol.",
+        "El 2 % en saldo exige pagar con tarjeta vinculada a Waylet; el saldo no es un descuento en el recibo, está sujeto a máximos anuales (≈2.000 kWh/litros) y caduca tras 12 meses sin uso o al darte de baja.",
+        "Los precios de potencia no figuran en las páginas leídas: pide el contrato antes de aceptar."
+      ],
+      "id": "repsol-waylet-precio-fijo",
+      "tariff": "Waylet Luz Precio Fijo (3 años)",
+      "energyPrice": 0.1299,
+      "powerP1": 0.099726,
+      "powerP2": 0.099726,
+      "restrictions": "Energía 0,1299 €/kWh sin impuestos «mismo precio 24 h, 3 años y sin permanencia» (web de Repsol, actualizada 10-11-2026). El término de potencia NO aparece publicado: se ha supuesto 0,099726 €/kW/día (el de la otra tarifa fija de Repsol «Sin Horarios»). Otra fuente (iacompara, feb-2026) daba 0,068219 para Repsol; el coste real puede estar entre ≈566 € y ≈732 €/año con tu consumo. Hasta 15 kW.",
+      "verification": "Web oficial de Repsol (energía, 3 años y sin permanencia) · potencia por CONFIRMAR en la app",
+      "pros": [
+        "Precio de energía fijo 3 años y sin permanencia (el plazo más largo de las ofertas sin permanencia).",
+        "Ventajas Waylet: 2 % en saldo y descuento en carburante si repostas en Repsol."
+      ],
+      "cons": [
+        "Potencia sin publicar: no se puede comparar con seguridad.",
+        "Solo en la app y solo para clientes nuevos de Repsol energía.",
+        "Las ventajas se cobran en saldo Waylet, no en la factura."
+      ]
+    },
+    {
+      "company": "Repsol (Waylet Luz)",
+      "kind": "oferta",
+      "monthlyFee": 0,
+      "lockInMonths": 0,
+      "priceFixedMonths": 12,
+      "renewable": "No indicado",
+      "maxKw": 15,
+      "url": "https://www.repsol.es/particulares/asesoramiento-consumo/que-es-waylet-luz/",
+      "urlVerified": true,
+      "consultedOn": "2026-11-18",
+      "promotion": "Saldo Waylet: 2 % del importe de la factura (solo si pagas con tarjeta vinculada; no es descuento en la factura). Descuento en carburante con Waylet (cts/l). Bono de bienvenida de 40 € citado en febrero-2026 (puede haber cambiado). Nada de esto está incluido en el coste.",
+      "rating": "Repsol global: Comparadorluz 4,7/5 (12.987) y web propia 4,8/5; Roams recoge críticas a la atención telefónica y un caso de cobro de 30 € al cambiar de compañía. Foro Banda Ancha (nov-2026): muchos usuarios contratan «Repsol Waylet Fijo» por los 3 años de precio garantizado.",
+      "clauses": [
+        "Si cancelas antes de 12 meses, Movistar Plus+ deja de estar bonificado (HelloWatt).",
+        "Pasado el año, Movistar Plus+ pasa a 9,99 €/mes: puede cobrarse sin avisar; apunta la fecha y cancélalo si no lo usas.",
+        "Posible servicio adicional «Asistente 24h Plus» (6,99 €/mes) en la variante de Roams: no lo aceptes por defecto."
+      ],
+      "id": "repsol-waylet-movistar",
+      "tariff": "Waylet Luz Precio Fijo + Movistar Plus+ (1 año de Movistar Plus+)",
+      "energyPrice": 0.1299,
+      "powerP1": 0.099726,
+      "powerP2": 0.099726,
+      "lockInUncertain": true,
+      "restrictions": "Repsol la describe como «la misma tarifa fija con 1 año de Movistar Plus+»; no publica si el precio fijo es 3 años o 12 meses en esta variante (un foro y HelloWatt apuntan a 12 meses). Pasado el año Movistar Plus+ cuesta 9,99 €/mes si lo mantienes. Roams lista una tarifa «Luz Movistar Plus+» distinta (0,170 €/kWh, potencia 0,100, y Asistente 24h Plus de 6,99 €/mes): no es la misma oferta, comprobar cuál te ofrece la app.",
+      "verification": "Web oficial de Repsol (resumen) · precio, duración y condiciones de Movistar Plus+ por CONFIRMAR en la app",
+      "pros": [
+        "Si ya pagas Movistar Plus+ (≈9,99 €/mes ≈ 120 €/año), el año gratis compensa el coste."
+      ],
+      "cons": [
+        "Si no quieres Movistar Plus+, es una variante sin interés.",
+        "Condiciones del regalo (qué pasa si te das de baja antes del año) sin publicar.",
+        "Duración del precio fijo dudosa."
+      ]
+    }
+  ]
+}
