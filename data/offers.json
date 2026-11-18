@@ -886,21 +886,21 @@
       "clauses": [
         "Solo contratable desde la app Waylet y, según la propia web/HelloWatt, para quien aún no tiene otros servicios de Repsol.",
         "El 2 % en saldo exige pagar con tarjeta vinculada a Waylet; el saldo no es un descuento en el recibo, está sujeto a máximos anuales (≈2.000 kWh/litros) y caduca tras 12 meses sin uso o al darte de baja.",
-        "Los precios de potencia no figuran en las páginas leídas: pide el contrato antes de aceptar."
+        "Pide el contrato en PDF antes de aceptar."
       ],
       "id": "repsol-waylet-precio-fijo",
-      "tariff": "Waylet Luz Precio Fijo (3 años)",
+      "tariff": "Waylet Luz Precio Fijo (3 años) — sin Movistar Plus+",
       "energyPrice": 0.1299,
-      "powerP1": 0.099726,
-      "powerP2": 0.099726,
-      "restrictions": "Energía 0,1299 €/kWh sin impuestos «mismo precio 24 h, 3 años y sin permanencia» (web de Repsol, actualizada 10-11-2026). El término de potencia NO aparece publicado: se ha supuesto 0,099726 €/kW/día (el de la otra tarifa fija de Repsol «Sin Horarios»). Otra fuente (iacompara, feb-2026) daba 0,068219 para Repsol; el coste real puede estar entre ≈566 € y ≈732 €/año con tu consumo. Hasta 15 kW.",
-      "verification": "Web oficial de Repsol (energía, 3 años y sin permanencia) · potencia por CONFIRMAR en la app",
+      "powerP1": 0.082,
+      "powerP2": 0.082,
+      "restrictions": "Energía 0,1299 €/kWh sin impuestos según la web de Repsol (10-11-2026), «mismo precio 24 h, 3 años y sin permanencia». Su potencia no está publicada: se ha supuesto 0,082 €/kW/día, la que muestra la app para la variante con Movistar Plus+ (captura del usuario). Confirmar en la app el precio de esta variante concreta. Hasta 15 kW.",
+      "verification": "Web oficial de Repsol (energía, 3 años y sin permanencia) · potencia supuesta, por CONFIRMAR en la app",
       "pros": [
         "Precio de energía fijo 3 años y sin permanencia (el plazo más largo de las ofertas sin permanencia).",
         "Ventajas Waylet: 2 % en saldo y descuento en carburante si repostas en Repsol."
       ],
       "cons": [
-        "Potencia sin publicar: no se puede comparar con seguridad.",
+        "Su precio y potencia no se han visto en la app (solo en la web).",
         "Solo en la app y solo para clientes nuevos de Repsol energía.",
         "Las ventajas se cobran en saldo Waylet, no en la factura."
       ]
@@ -910,34 +910,36 @@
       "kind": "oferta",
       "monthlyFee": 0,
       "lockInMonths": 0,
-      "priceFixedMonths": 12,
+      "priceFixedMonths": 36,
       "renewable": "No indicado",
       "maxKw": 15,
-      "url": "https://www.repsol.es/particulares/asesoramiento-consumo/que-es-waylet-luz/",
+      "url": "https://www.repsol.es/waylet/casa/waylet-luz/",
       "urlVerified": true,
       "consultedOn": "2026-11-18",
       "promotion": "Saldo Waylet: 2 % del importe de la factura (solo si pagas con tarjeta vinculada; no es descuento en la factura). Descuento en carburante con Waylet (cts/l). Bono de bienvenida de 40 € citado en febrero-2026 (puede haber cambiado). Nada de esto está incluido en el coste.",
       "rating": "Repsol global: Comparadorluz 4,7/5 (12.987) y web propia 4,8/5; Roams recoge críticas a la atención telefónica y un caso de cobro de 30 € al cambiar de compañía. Foro Banda Ancha (nov-2026): muchos usuarios contratan «Repsol Waylet Fijo» por los 3 años de precio garantizado.",
       "clauses": [
-        "Si cancelas antes de 12 meses, Movistar Plus+ deja de estar bonificado (HelloWatt).",
-        "Pasado el año, Movistar Plus+ pasa a 9,99 €/mes: puede cobrarse sin avisar; apunta la fecha y cancélalo si no lo usas.",
-        "Posible servicio adicional «Asistente 24h Plus» (6,99 €/mes) en la variante de Roams: no lo aceptes por defecto."
+        "Si cancelas antes de 12 meses, Movistar Plus+ deja de estar bonificado (HelloWatt, no confirmado en la app).",
+        "Pasado el año, Movistar Plus+ pasa a 9,99 €/mes: apunta la fecha y cancélalo si no lo usas.",
+        "El 2 % en saldo exige pagar con tarjeta vinculada; el saldo no es descuento en el recibo, tiene máximos anuales y caduca a los 12 meses sin uso o al darte de baja."
       ],
       "id": "repsol-waylet-movistar",
-      "tariff": "Waylet Luz Precio Fijo + Movistar Plus+ (1 año de Movistar Plus+)",
-      "energyPrice": 0.1299,
-      "powerP1": 0.099726,
-      "powerP2": 0.099726,
-      "lockInUncertain": true,
-      "restrictions": "Repsol la describe como «la misma tarifa fija con 1 año de Movistar Plus+»; no publica si el precio fijo es 3 años o 12 meses en esta variante (un foro y HelloWatt apuntan a 12 meses). Pasado el año Movistar Plus+ cuesta 9,99 €/mes si lo mantienes. Roams lista una tarifa «Luz Movistar Plus+» distinta (0,170 €/kWh, potencia 0,100, y Asistente 24h Plus de 6,99 €/mes): no es la misma oferta, comprobar cuál te ofrece la app.",
-      "verification": "Web oficial de Repsol (resumen) · precio, duración y condiciones de Movistar Plus+ por CONFIRMAR en la app",
+      "tariff": "Waylet Luz «Precio Fijo TV» (3 años + 1 año de Movistar Plus+)",
+      "energyPrice": 0.159,
+      "powerP1": 0.082,
+      "powerP2": 0.082,
+      "lockInUncertain": false,
+      "restrictions": "Datos vistos en la app Waylet (captura del usuario, 18-11-2026, precios sin impuestos): energía 0,159 €/kWh, potencia 0,082 €/kW/día en punta y valle, «mismo precio durante 3 años», 1 año de Movistar Plus+, 2 % de las facturas en saldo y 10 cts/l en saldo (20 cts/l hasta fin de promoción). Preguntas frecuentes de la app: cambio gratis, 1–3 días, hay que ser titular. Hasta 15 kW.",
+      "verification": "App Waylet (captura del usuario, 18-11-2026)",
       "pros": [
-        "Si ya pagas Movistar Plus+ (≈9,99 €/mes ≈ 120 €/año), el año gratis compensa el coste."
+        "Precio fijo 3 años y sin permanencia, visto en la propia app.",
+        "Incluye 1 año de Movistar Plus+ (≈120 €/año si ya lo pagas).",
+        "Potencia más baja que la mayoría de ofertas (0,082)."
       ],
       "cons": [
-        "Si no quieres Movistar Plus+, es una variante sin interés.",
-        "Condiciones del regalo (qué pasa si te das de baja antes del año) sin publicar.",
-        "Duración del precio fijo dudosa."
+        "Energía a 0,159 €/kWh: de las más caras; sin el valor de Movistar Plus+ y el carburante pierde frente a Lucera.",
+        "Condiciones de Movistar Plus+ (baja anticipada, precio posterior) no mostradas en la app.",
+        "Las ventajas Waylet son saldo, no descuento en el recibo."
       ]
     }
   ]
