@@ -25,7 +25,7 @@ Abre `http://localhost:8080` en Edge o Chrome y, si quieres, «Instalar aplicaci
 Un service worker (modo sin conexión e instalación completa) **solo funciona en HTTPS**. Opciones:
 
 1. **Misma wifi (sin instalar nada más)**: `node serve.mjs 8080 --lan` en el PC y abre `http://IP-DEL-PC:8080` en el móvil. Después, «Añadir a pantalla de inicio» (iPhone: Compartir → Añadir a pantalla de inicio; Android: menú → Añadir a pantalla de inicio). Funciona mientras el PC esté encendido. Úsalo solo en una red de confianza (va sin cifrar).
-2. **Instalación real y sin conexión**: publicar estos ficheros en un alojamiento HTTPS estático (p. ej. GitHub Pages del repo). La app no envía datos a ningún sitio, así que publicarla no expone tus facturas. Es una decisión pendiente: no se ha publicado nada.
+2. **Instalación real y sin conexión (GitHub Pages)**: en el repositorio, Settings → Pages → «Deploy from a branch» → rama `main`, carpeta `/ (root)` → Save. En un minuto queda en https://hector-yago.github.io/tarifas-luz/ y se puede instalar desde Chrome/Edge (PC y Android) o con «Añadir a pantalla de inicio» (iPhone, desde Safari). La app no envía datos a ningún sitio: tus facturas siguen guardándose solo en tu dispositivo (cada dispositivo tiene sus propios datos; para pasarlos, Ajustes → Exportar / Importar).
 
 ## Cómo actualizar los precios
 
