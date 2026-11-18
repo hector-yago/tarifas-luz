@@ -89,19 +89,22 @@
       "urlVerified": true,
       "consultedOn": "2026-11-18",
       "verification": "Web oficial (coincide con tarifaoptima.com 11-nov-2026)",
-      "rating": "Trustpilot ≈4,5/5 (888 opiniones) y 4,6–4,7 en comparadores; en OCU solo 2 reclamaciones públicas listadas (2021 y feb-2026, consumos). Queja recurrente: «se ha ido encareciendo».",
+      "rating": "Trustpilot ≈4,5/5 (888 opiniones, comparadores); Google Maps 3,8/5 (620) y otro agregador 4,3/5 (1.535). OCU: pocas reclamaciones públicas (p. ej. factura con datos de otro cliente, dic-2025; consumos incorrectos); respuesta media ≈5 días. Queja recurrente: «se ha ido encareciendo». Solo pago por domiciliación bancaria.",
       "pros": [
         "Sin permanencia ni cuota fija; precio muy competitivo para consumo bajo.",
         "100 % renovable; buena atención y facturas claras según opiniones.",
-        "Dispone del tope de revisión publicado (0,160 €/kWh)."
+        "Respaldo de un grupo grande (MásMóvil/MasOrange y, según el anuncio, Endesa) y ≈350.000 clientes.",
+        "Tiene publicado el tope de la primera revisión (0,160 €/kWh)."
       ],
       "cons": [
-        "Tras 12 meses puede subir hasta el tope (con 30 días de aviso).",
-        "Solo dos tarifas; poca presencia física."
+        "Tras 12 meses puede actualizar el precio con 30 días de aviso (tope 0,160 €/kWh en la primera revisión): ≈705 €/año.",
+        "Solo pago por domiciliación; sin oficinas.",
+        "Cambio de propietario (Endesa) en curso o reciente: pueden cambiar condiciones."
       ],
       "clauses": [
         "Revisión de precio a los 12 meses por fórmula con tope: aceptable por estar acotada, pero vigila el aviso y cambia de compañía si sube."
-      ]
+      ],
+      "about": "Marca de Energía Colectiva, S.L. (Valencia, fundada en 2014). Grupo MásMóvil desde 2021 (después MasOrange). Endesa anunció su compra el 30-09-2025 (≈90 M€, ≈350.000 clientes); la CNMC la autorizó en primera fase en noviembre de 2025. No he podido confirmar el cierre de la operación en 2026."
     },
     {
       "id": "totalenergies-a-tu-aire-siempre",
@@ -890,19 +893,19 @@
       ],
       "id": "repsol-waylet-precio-fijo",
       "tariff": "Waylet Luz Precio Fijo (3 años) — sin Movistar Plus+",
-      "energyPrice": 0.1299,
+      "energyPrice": 0.159,
       "powerP1": 0.082,
       "powerP2": 0.082,
-      "restrictions": "Energía 0,1299 €/kWh sin impuestos según la web de Repsol (10-11-2026), «mismo precio 24 h, 3 años y sin permanencia». Su potencia no está publicada: se ha supuesto 0,082 €/kW/día, la que muestra la app para la variante con Movistar Plus+ (captura del usuario). Confirmar en la app el precio de esta variante concreta. Hasta 15 kW.",
-      "verification": "Web oficial de Repsol (energía, 3 años y sin permanencia) · potencia supuesta, por CONFIRMAR en la app",
+      "restrictions": "Según el usuario (app Waylet, 18-11-2026) tiene el mismo precio que la variante TV: 0,159 €/kWh y 0,082 €/kW/día (sin impuestos), 3 años y sin permanencia. La web de Repsol anuncia 0,1299 €/kWh para «Precio Fijo»: no coincide con la app (la app manda). Hasta 15 kW.",
+      "verification": "App Waylet (capturas del usuario y confirmación del usuario, 18-11-2026)",
       "pros": [
-        "Precio de energía fijo 3 años y sin permanencia (el plazo más largo de las ofertas sin permanencia).",
-        "Ventajas Waylet: 2 % en saldo y descuento en carburante si repostas en Repsol."
+        "Precio de energía y potencia fijos 3 años y sin permanencia, visto en la propia app.",
+        "Sin servicio de Movistar Plus+ que cancelar (evita la renovación tácita).",
+        "Potencia más baja que la mayoría de ofertas (0,082)."
       ],
       "cons": [
-        "Su precio y potencia no se han visto en la app (solo en la web).",
-        "Solo en la app y solo para clientes nuevos de Repsol energía.",
-        "Las ventajas se cobran en saldo Waylet, no en la factura."
+        "Energía a 0,159 €/kWh: de las más caras; compensa por la potencia baja y por las ventajas Waylet (saldo).",
+        "Las ventajas Waylet son saldo para gastar en Repsol, no descuento en el recibo."
       ]
     },
     {
@@ -920,11 +923,12 @@
       "rating": "Repsol global: Comparadorluz 4,7/5 (12.987) y web propia 4,8/5; Roams recoge críticas a la atención telefónica y un caso de cobro de 30 € al cambiar de compañía. Foro Banda Ancha (nov-2026): muchos usuarios contratan «Repsol Waylet Fijo» por los 3 años de precio garantizado.",
       "clauses": [
         "Si cancelas antes de 12 meses, Movistar Plus+ deja de estar bonificado (HelloWatt, no confirmado en la app).",
-        "Pasado el año, Movistar Plus+ pasa a 9,99 €/mes: apunta la fecha y cancélalo si no lo usas.",
+        "Contrato de Movistar Plus+ (SVA): 12 meses y RENOVACIÓN TÁCITA por periodos iguales salvo denuncia expresa con 15 días de antelación como mínimo; la cuota se factura dentro de la factura de la luz.",
+        "Condiciones de la promoción (app): válida para contratos entre 13-03-2025 y 12-06-2026 y limitada a 60.000 ventas; hay que activar el código en los 3 meses siguientes a recibirlo.",
         "El 2 % en saldo exige pagar con tarjeta vinculada; el saldo no es descuento en el recibo, tiene máximos anuales y caduca a los 12 meses sin uso o al darte de baja."
       ],
       "id": "repsol-waylet-movistar",
-      "tariff": "Waylet Luz «Precio Fijo TV» (3 años + 1 año de Movistar Plus+)",
+      "tariff": "Waylet Luz «Precio Fijo TV» (3 años + 1 año de Movistar Plus+, hay que cancelarlo)",
       "energyPrice": 0.159,
       "powerP1": 0.082,
       "powerP2": 0.082,
